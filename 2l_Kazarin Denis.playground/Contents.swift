@@ -3,26 +3,20 @@ import UIKit
 //1. Написать функцию, которая определяет, четное число или нет.
 
 func checkEvenNum (num: Int) -> Bool {
-    var checkEven: Bool? = nil
     if num % 2 == 0 && num != 0{
-        checkEven = true
-        return checkEven!
+        return true
     } else {
-        checkEven = false
-        return checkEven!
+        return false
     }
 }
 
 //2. Написать функцию, которая определяет, делится ли число без остатка на 3.
 
 func checkThreeNum (num: Int) -> Bool {
-    var checkThree: Bool? = nil
     if num % 3 == 0 && num != 0{
-        checkThree = true
-        return checkThree!
+        return true
     } else {
-        checkThree = false
-        return checkThree!
+        return false
     }
 }
 
